@@ -1,6 +1,6 @@
 # metrics-concurrency
 Benchmark/ metrics for concurrency Java applications 
-(benchmark JVM, CPU, etc)
+(benchmark JVM, CPU, OS,etc)
 
 ## Metrics 
 + test
