@@ -15,12 +15,27 @@ Benchmark/ metrics for concurrency Java applications
 + Jtest
 + Findbug 
 + PMD
++ VisualVM
+    + `jvisualvm` 
+
 
 
 # Hotspot GC tuning 
 + Heap management 
+    + Allocation - lock free out of Thread local area buffers 
+    + GC root set : loaded class, static fields, live threads, JNI local and global
+    + Young generation : Eden TLAB _ 
++ GC 
+    + algorithms 
+    + YG collectors : reclamation
+        + collections employs parallel GC worker threads that have their own work queues and also can perform work stealing are employed to reduce the pause time per collection
+        + surviving obj = copied - aged in survivor spaces 
+        + overflow + ageed obj = OG 
+        + Promote thread local buffer 
+    + OG : parallel mark sweep ad compaction
 + Hotspot Parallel GC & CMS GC 
 + GC logs : VisualVM & VisualGC, metaspace, young allocation, reclamation and promotion
+    + log options : (-XX:+UseSerialGC -Xms1024m -Xmx1024m -verbose:gc -XX:+PrintGCDetails) | -XX:+PrintGCDetails
 + GC performance tuning 
   + reduce latency 
   + tune throughput 
