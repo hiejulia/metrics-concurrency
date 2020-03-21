@@ -14,6 +14,7 @@ Benchmark/ metrics for concurrency Java applications
 + JConsole 
 + Jtest
 + Findbug 
++ JMH 
 + PMD
 + VisualVM
     + `jvisualvm` 
@@ -45,3 +46,12 @@ Benchmark/ metrics for concurrency Java applications
   + fragmentation, evacuation failure, full GC 
   + utilize region size tuning to help avoid failures due to humongous objects 
   + utilize tuning to adjust marking threshold or concurrent threads or reclaim more regions.
+
+
+
++ Test 2 different architecture
+    + A  computer with an Intel Core i5-5300 CPU with Windows 7 and 16 GB of RAM. This processor has two cores and each core can execute two threads, so we will have four parallel threads.
+    + A computer with an AMD A8-640 APU with Windows 10 and 8 GB of RAM. This processor has four cores.
+
+
+    
