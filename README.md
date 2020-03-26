@@ -2,6 +2,42 @@
 Benchmark/ metrics for concurrency Java applications 
 (benchmark JVM, CPU, OS,etc)
 
+
+# Distributed computing network protocol 
++ Amdahl's law
+
++ Parallel computing
+    + geographical distribution : WAN, Network Of Workstations/Cluster Of Workstations
+
++ Parallel computing vs Distributed computing 
+<a href="https://imgur.com/0oQG5QJ"><img src="https://i.imgur.com/0oQG5QJ.png" title="source: imgur.com" /></a>
+
++ Client- server
++ Socket & streams
++ Socket TCP / UDP
++ Multi casting 
++ Streams
++ OSI
++ RPC 
++ RMI : JVM <-> JVM
+    + deploy different server 
+    + RMI registry 
+    
++ CORBA
++ Socket
++ Stream 
+
+# GPU 
+
+# VPU
+
+
+# Signal processing 
+
+# Image prcessing 
+
+
+
 ## Metrics 
 + test
 + code coverage 
@@ -11,6 +47,7 @@ Benchmark/ metrics for concurrency Java applications
 
 
 ## Stack/ Tools 
++ Java : batch, integration 
 + JConsole 
 + Jtest
 + Findbug 
