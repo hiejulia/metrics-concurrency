@@ -26,6 +26,7 @@ Benchmark/ metrics for concurrency Java applications
 + CORBA
 + Socket
 + Stream 
++ Java NIO package to perform multitasking 
 
 # GPU 
 

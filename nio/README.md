@@ -1,0 +1,12 @@
+# NIO
++ read & write files wiht channels
++ transfer without buffering
++ scatter & gather
++ multiple chanel single thread
++ memory map files
+
+
+# NIO socket 
++ Compare 
+    + Read files by means of FileInputStream 
+    + Read files as memory mapped files 

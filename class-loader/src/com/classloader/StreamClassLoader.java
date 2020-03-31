@@ -8,7 +8,7 @@ import java.util.Hashtable;
 public abstract class StreamClassLoader extends ClassLoader {
 
     Hashtable<String, Class<?>> componentCache = new Hashtable<String, Class<?>>();
-    
+
     InputStream source = null;
 
     public StreamClassLoader() {
