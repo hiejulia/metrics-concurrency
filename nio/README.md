@@ -10,3 +10,5 @@
 + Compare 
     + Read files by means of FileInputStream 
     + Read files as memory mapped files 
+# NIO selector
++ multiple channels from 1 thread 
