@@ -1,3 +1,9 @@
+---
+noteId: "7716bd8075b911ea89559b5f9bc31c13"
+tags: []
+
+---
+
 # NIO
 + read & write files wiht channels
 + transfer without buffering
