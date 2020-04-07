@@ -2,13 +2,21 @@
 - Benchmark/ metrics for concurrency Java applications 
 (benchmark JVM, CPU, OS,etc)
 - Network programming with Java & C 
+<a href="https://imgur.com/sZFgJGx"><img src="https://i.imgur.com/sZFgJGx.png" title="source: imgur.com" /></a>
 
 # Network 
 `TRACERT`
 `brew install libssh`
 - IPv4 and IPv6
-
-
+- Internet Assigned Numbers Authority (IANA)
+- NAT 
+- LAN 
+- Router 
+- Subnet mask 
+- CIDR 
+- Multicast - Broadcast 
+<a href="https://imgur.com/FntW68k"><img src="https://i.imgur.com/FntW68k.png" title="source: imgur.com" /></a>
+<a href="https://imgur.com/u1eddZe"><img src="https://i.imgur.com/u1eddZe.png" title="source: imgur.com" /></a>
 # Distributed computing network protocol 
 + Amdahl's law
 
