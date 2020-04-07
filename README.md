@@ -1,6 +1,12 @@
 # metrics-concurrency
-Benchmark/ metrics for concurrency Java applications 
+- Benchmark/ metrics for concurrency Java applications 
 (benchmark JVM, CPU, OS,etc)
+- Network programming with Java & C 
+
+# Network 
+`TRACERT`
+`brew install libssh`
+- IPv4 and IPv6
 
 
 # Distributed computing network protocol 
@@ -31,8 +37,6 @@ Benchmark/ metrics for concurrency Java applications
 + IRC bot 
 + SSH 
 + FTP 
-
-
 
 
 # GPU 
