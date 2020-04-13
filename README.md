@@ -1,7 +1,10 @@
 # metrics-concurrency
+- Network programming with Java & C, ++ 
 - Benchmark/ metrics for concurrency Java applications 
 (benchmark JVM, CPU, OS,etc)
-- Network programming with Java & C 
+- IoT network programming with C 
+
+
 <a href="https://imgur.com/sZFgJGx"><img src="https://i.imgur.com/sZFgJGx.png" title="source: imgur.com" /></a>
 
 # Network 
@@ -46,6 +49,38 @@
 + SSH 
 + FTP 
 
+### OSI model 
+- Datalink & physical : ethernet, FDDI, TokenRing, 
+- byte order 
+
+### Debug network program
+- log file 
+- remote server debug port 
+    - SSH port forward
+
+- traffic can be sniffed
+- wireshark
+- fiddler
+- owasp zed attack proxy 
+
+
+## IoT network programming 
+- Connectivity type 
+    - wifi: WLAN - IEEE 2.4 ghz / 5ghz radio freq
+    - config info in SDcard / USB 
+    - connect to computer/ phone (bluetooth)
+- ethernet 
+- cellular 
+    - mobile networks 
+    - cellular modem LTE 
+- bluetooth   
+- IEEE 802.15.4 WPANs 
+    -  Zigbee, 6LoWPAN, Thread, ISA100.1, WirelessHART, WiSUN, and MiFi protocols are all based on the IEEE 802.15.4 standard, just to name a few.
+- IoT protocol 
+- Bandwidth 
+- controller 
+- security 
+
 
 # GPU 
 
@@ -67,6 +102,7 @@
 
 
 ## Stack/ Tools 
+- C, C++ 
 + Java : batch, integration 
 + JConsole 
 + Jtest
