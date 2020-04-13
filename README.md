@@ -98,12 +98,24 @@
 + code coverage 
 + JVM execution threads, CPU, etc
 
+## Multithread application 
+- thread dump 
+- memory tracking 
+- memory leak report plugin 
+- detect deadlock 
+- cpu & memory profiling 
+
+<a href="https://imgur.com/nPlmfoN"><img src="https://i.imgur.com/nPlmfoN.png" title="source: imgur.com" /></a>
+<a href="https://imgur.com/z8BHas0"><img src="https://i.imgur.com/z8BHas0.png" title="source: imgur.com" /></a>
+<a href="https://imgur.com/qop5GFz"><img src="https://i.imgur.com/qop5GFz.png" title="source: imgur.com" /></a>
+
 
 
 
 ## Stack/ Tools 
 - C, C++ 
 + Java : batch, integration 
+- Java EE 
 + JConsole 
 + Jtest
 + Findbug 
